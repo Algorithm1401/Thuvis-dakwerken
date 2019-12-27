@@ -1,0 +1,13 @@
+@media screen and (max-width: 800px) {
+  #picture-area img {
+    width: 200px;
+    height: 150px;
+    margin: 5% 20% 0 20%;
+  }
+}
+
+@media screen and (max-width: 1541px) {
+  #picture-area img:last-child {
+    margin-bottom: 5%;
+  }
+}

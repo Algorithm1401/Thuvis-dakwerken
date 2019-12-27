@@ -1,0 +1,29 @@
+<div id="wrapper">
+  <app-header></app-header>
+  <div id="content">
+
+    <form action="https://mailto:thuvisdakwerken@gmail.com" enctype="text/plain" method="post">
+      <br/>
+      <label for="organisation">Naam</label>
+      <br/>
+      <input name="organisation" id="organisation" type="text"/>
+      <br/>
+      <label for="email">E-mail</label><span class="red_star">*</span>
+      <br/>
+      <input required="required" name="email" id="email" type="email">
+      <br/>
+      <label for="telephone">Telefoonnummer</label>
+      <input name="telephone" id="telephone" type="text">
+      <br/>
+      <label for="message">Uw bericht</label><span class="red_star">*</span>
+      <br/>
+      <textarea required="required" name="message" id="message"></textarea>
+      <p class="small_text"><span class="red_star">*</span> gemarkeerde velden zijn verplicht</p>
+      <br>
+      <button type="submit">Verstuur</button>
+      <button type="reset">Reset</button>
+    </form>
+
+  </div>
+  <app-footer></app-footer>
+</div>

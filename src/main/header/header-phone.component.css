@@ -1,0 +1,51 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@media screen and (max-width: 1234px) {
+
+  #routing-buttons {
+    display: none;
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 2%;
+  }
+
+  #lower-nav a:nth-child(1) {
+    margin: 0;
+  }
+
+  #routing-buttons a {
+    border: none;
+    text-align: center;
+    padding: 0;
+
+  }
+
+  #routing-buttons a button {
+    margin: 0;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+  }
+
+  .fa-bars {
+    color: #FF650A;
+    display: block;
+    margin-left: 3%;
+    font-size: 1.5em;
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (min-width: 1234px) {
+
+  .fa-bars {
+    display: none;
+  }
+  
+  #routing-buttons {
+    display: block;
+  }
+
+}

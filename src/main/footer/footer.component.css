@@ -1,0 +1,29 @@
+#nav {
+  background-color: dimgrey;
+  height: auto;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+
+#footer-upperline {
+  height: 0.8vh;
+  background-color: #FF650A;
+}
+
+p {
+  margin: 0;
+}
+
+span {
+  margin: 0;
+  color: #b1b1b1;
+  font-size: 12px;
+}
+
+span a {
+  color: #b1b1b1;
+}
+
+span a:hover {
+  color: white;
+}

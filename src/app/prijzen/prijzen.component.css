@@ -1,0 +1,25 @@
+div#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+#content {
+  clear: both;
+  height: auto;
+  overflow: auto;
+  margin-bottom: 0;
+  background: lightgrey;
+  padding: 2vw 25% 2vw 25%;
+}
+
+app-footer {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+app-header {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
