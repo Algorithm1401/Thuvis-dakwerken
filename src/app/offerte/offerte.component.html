@@ -4,6 +4,18 @@
 
     <form action="mailto:info@thuvisdakwerken.nl" enctype="text/plain" method="post">
       <br/>
+      <label for="daktype">Type dak</label><span class="red_star">*</span>
+      <br/>
+      <select name="daktype" id="daktype" required="required">
+        <option value="plat">Plat</option>
+        <option value="hellend">Hellend</option>
+      </select>
+      <br/>
+      <br/>
+      <label for="oppervlakte">Oppervlakte dak (m²)</label><span class="red_star">*</span>
+      <br/>
+      <input name="oppervlakte" id="oppervlakte" type="number" required="required">
+      <br/>
       <label for="organisation">Naam</label>
       <br/>
       <input name="organisation" id="organisation" type="text"/>
@@ -15,7 +27,7 @@
       <label for="telephone">Telefoonnummer</label>
       <input name="telephone" id="telephone" type="text">
       <br/>
-      <label for="message">Uw bericht</label><span class="red_star">*</span>
+      <label for="message">Opmerkingen (Eventueel link naar foto's van het betreffende dak)</label>
       <br/>
       <textarea required="required" name="message" id="message"></textarea>
       <p class="small_text"><span class="red_star">*</span> gemarkeerde velden zijn verplicht</p>

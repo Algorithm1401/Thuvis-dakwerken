@@ -18,7 +18,7 @@ export class HeaderComponent implements OnInit {
       case '/start':
         index = 0;
         break;
-      case '/prijzen':
+      case '/aanbod':
         index = 1;
         break;
       case '/projecten':
@@ -26,6 +26,9 @@ export class HeaderComponent implements OnInit {
         break;
       case '/contact':
         index = 3;
+        break;
+      case '/offerte':
+        index = 4;
         break;
     }
     selectedButton = document.getElementsByClassName('draw-border').item(index);

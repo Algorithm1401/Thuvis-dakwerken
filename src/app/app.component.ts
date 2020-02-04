@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-declare const testFunction: any;
 
 @Component({
   selector: 'app-root',
@@ -9,6 +8,5 @@ declare const testFunction: any;
 export class AppComponent implements OnInit{
   title = 'thuvisdakwerken';
   ngOnInit(): void {
-    testFunction();
   }
 }

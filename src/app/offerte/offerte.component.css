@@ -3,6 +3,15 @@ div#wrapper {
   position: relative;
 }
 
+#content {
+  clear: both;
+  height: auto;
+  overflow: auto;
+  margin-bottom: 0;
+  background: lightgrey;
+  padding: 2vw 25% 2vw 25%;
+}
+
 app-footer {
   width: 100%;
   color: white;
@@ -15,14 +24,6 @@ app-header {
   height: auto;
 }
 
-#content {
-  clear: both;
-  height: auto;
-  overflow: auto;
-  margin-bottom: 0;
-  background: lightgrey;
-  padding: 2vw 25% 2vw 25%;
-}
 
 form label {
   font-size: 22px;
@@ -52,6 +53,11 @@ form button {
   background: black;
   color: white;
   border: none;
+}
+
+form select {
+  width: 101%;
+  height: 4.0vh;
 }
 
 span.red_star {

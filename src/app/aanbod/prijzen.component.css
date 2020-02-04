@@ -1,0 +1,67 @@
+div#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+#content {
+  clear: both;
+  height: auto;
+  overflow: auto;
+  margin-bottom: 0;
+  background: lightgrey;
+  padding: 2vw 10% 2vw 10%;
+}
+
+app-footer {
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+app-header {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+article {
+  float: left;
+  width: 45%;
+  border: #FF650A solid 3px;
+  border-radius: 5px;
+  margin-bottom: 5vw;
+  padding: 1%;
+}
+
+article:nth-child(even) {
+  float: right;
+}
+
+article h2 {
+  color: black;
+}
+
+article .spacing-line {
+  height: 0.5vh;
+  background-color: black;
+}
+
+article .aanbod-image {
+  height: 15%;
+  width: 15%;
+  float: right;
+}
+
+article .aanbod-content {
+  width: 80%;
+  float: left;
+}
+
+@media only screen and (max-width: 800px) {
+  article {
+    float: left;
+    display: block;
+    width: 97%;
+  }
+
+}
