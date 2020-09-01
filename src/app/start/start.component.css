@@ -19,8 +19,8 @@ div#wrapper {
   border: 5px solid dimgrey;
   margin: 5%;
   opacity: 0.85;
-  width: 600px;
-  height: 450px;
+  width: auto;
+  height: 300px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5), 0 12px 40px 0 rgba(0, 0, 0, 0.4);;
 }
 
@@ -53,6 +53,10 @@ iframe {
 }
 
 #lower-nav a:first-child {
+  color: #FF650A;
+}
+
+h1 {
   color: #FF650A;
 }
 

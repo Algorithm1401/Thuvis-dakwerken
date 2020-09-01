@@ -26,15 +26,12 @@ app-header {
 
 article {
   float: left;
-  width: 45%;
+  width: 70%;
   border: #FF650A solid 3px;
   border-radius: 5px;
-  margin-bottom: 5vw;
+  margin-bottom: 2vw;
   padding: 1%;
-}
-
-article:nth-child(even) {
-  float: right;
+  margin-left: 15%
 }
 
 article h2 {
@@ -54,7 +51,6 @@ article .aanbod-image {
 
 article .aanbod-content {
   width: 80%;
-  float: left;
 }
 
 @media only screen and (max-width: 800px) {
@@ -63,5 +59,4 @@ article .aanbod-content {
     display: block;
     width: 97%;
   }
-
 }
