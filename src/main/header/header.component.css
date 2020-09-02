@@ -1,11 +1,11 @@
 #upper-nav {
-  background-color: black;
+  background-color: #020305;
   text-align: center;
 }
 
 img {
-  width: 15vw;
-  height: 3.25vw;
+  width: 30vw;
+  height: 8.5vw;
   margin-top: 1%;
   margin-bottom: 1%;
 }
@@ -14,7 +14,7 @@ img {
   background-color: dimgrey;
   text-align: center;
   height: auto;
-  padding: 1vh 0 1vh 0;
+  padding: 1vh 20% 1vh 20%;
 }
 
 #lower-nav a {
@@ -22,7 +22,12 @@ img {
 }
 
 #lower-nav a:nth-child(1) {
-  margin-left: 60px;
+  margin-left: 30px;
+}
+
+#routing-buttons {
+  align-self: center;
+  display: inline-block;
 }
 
 /* Custom button */
@@ -33,6 +38,7 @@ img {
   transition: color 0.25s 0.08333s;
   position: relative;
 }
+
 .draw-border::before, .draw-border::after {
   border: 0 solid transparent;
   box-sizing: border-box;
@@ -44,29 +50,36 @@ img {
   bottom: 0;
   right: 0;
 }
+
 .draw-border::before {
   border-bottom-width: 4px;
   border-left-width: 4px;
 }
+
 .draw-border::after {
   border-top-width: 4px;
   border-right-width: 4px;
 }
+
 .draw-border:hover {
   color: #FF650A;
 }
+
 .draw-border:hover::before, .draw-border:hover::after {
   border-color: #FF650A;
   transition: border-color 0s, width 0.25s, height 0.25s;
   width: 100%;
   height: 100%;
 }
+
 .draw-border:hover::before {
   transition-delay: 0s, 0s, 0.25s;
 }
+
 .draw-border:hover::after {
   transition-delay: 0s, 0.25s, 0s;
 }
+
 .btn {
   background: none;
   border: none;
