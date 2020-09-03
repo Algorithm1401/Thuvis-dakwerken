@@ -6,7 +6,7 @@ div#wrapper {
 #content {
   clear: both;
   height: auto;
-  overflow: auto;
+  overflow: hidden;
   margin-bottom: 0;
   background: lightgrey;
   padding: 2vw 10% 2vw 10%;
@@ -25,13 +25,13 @@ app-header {
 }
 
 article {
-  float: left;
   width: 70%;
   border: #FF650A solid 3px;
   border-radius: 5px;
   margin-bottom: 2vw;
   padding: 1%;
-  margin-left: 15%
+  margin-left: 15%;
+  overflow: auto;
 }
 
 article h2 {
@@ -57,6 +57,12 @@ article .aanbod-content {
   article {
     float: left;
     display: block;
-    width: 97%;
   }
+
+  article .aanbod-image {
+    height: 50%;
+    width: 50%;
+    float: left;
+  }
+
 }
