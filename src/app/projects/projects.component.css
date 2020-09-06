@@ -138,6 +138,11 @@ body {
     left: 31px;
   }
 
+  .pictures img {
+    height: 14vh;
+    width: auto;
+  }
+
   /* Full-width containers */
   .container {
     width: 100%;

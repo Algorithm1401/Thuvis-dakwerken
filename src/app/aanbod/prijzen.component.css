@@ -9,7 +9,7 @@ div#wrapper {
   overflow: hidden;
   margin-bottom: 0;
   background: lightgrey;
-  padding: 2vw 10% 2vw 10%;
+  padding: 2vw 2% 2vw 0;
 }
 
 app-footer {
