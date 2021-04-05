@@ -10,6 +10,7 @@ import { PrijzenComponent } from './aanbod/prijzen.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { OfferteComponent } from './offerte/offerte.component';
+import { VacatureComponent } from './vacature/vacature.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { OfferteComponent } from './offerte/offerte.component';
     PrijzenComponent,
     ProjectsComponent,
     ContactComponent,
-    OfferteComponent
+    OfferteComponent,
+    VacatureComponent
   ],
   imports: [
     BrowserModule,
@@ -30,6 +32,7 @@ import { OfferteComponent } from './offerte/offerte.component';
       {path: 'projecten', component: ProjectsComponent},
       {path: 'contact', component: ContactComponent},
       {path: 'offerte', component: OfferteComponent},
+      {path: 'vacature', component: VacatureComponent},
       {path: '', redirectTo: 'start', pathMatch: 'full'}
     ], {useHash: true})
   ],
